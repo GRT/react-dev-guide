@@ -2,8 +2,8 @@
 GRT React style guide
 
 ## Examples to steal from
-[airbnb](https://github.com/airbnb/javascript/tree/master/react)
-[David Chang](http://reactjsnews.com/react-style-guide-patterns-i-like/)
+ - [airbnb](https://github.com/airbnb/javascript/tree/master/react)
+ - [David Chang](http://reactjsnews.com/react-style-guide-patterns-i-like/)
 
 ## Sections to start with
 

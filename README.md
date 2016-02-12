@@ -4,6 +4,8 @@ GRT React style guide
 ## Examples to steal from
  - [airbnb](https://github.com/airbnb/javascript/tree/master/react)
  - [David Chang](http://reactjsnews.com/react-style-guide-patterns-i-like/)
+ - [React 2016 Best Practices](https://blog.risingstack.com/react-js-best-practices-for-2016/)
+
 
 ## Goals
 The purpose of this repo is to standardize on one set of best practices, tips and tricks for React development at GRT and to provide a reference for new React devs. This will allow those of us that are new to React to get up to speed quickly and those of us with some experience to move easily between projects and find our way around familiar codebases.

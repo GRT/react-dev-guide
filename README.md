@@ -21,6 +21,20 @@ If you're assigned to a project team for a given product, you should always crea
 
 ## Code Reviews
 
+## React Class Syntax
+We prefer to define classes using the [JS ES6 Class Syntax](https://facebook.github.io/react/docs/reusable-components.html#es6-classes)
+
+```
+class HelloMessage extends React.Component {
+  render() {
+    return <div>Hello {this.props.name}</div>;
+  }
+}
+ReactDOM.render(<HelloMessage name="Sebastian" />, mountNode);
+```
+
+
+
 ## TBD
  - Installation
  - Running the code
@@ -44,7 +58,30 @@ If you're assigned to a project team for a given product, you should always crea
  - jQuery and Underscore
  - Five Lines
  - File Naming
- - Method Organizations
+
+## Method Organizations
+We lay out the methods of a component in life-cycle order:
+
+class Foo extends React.Component({
+  displayName : ''
+  propTypes: {}
+  statics: {}
+  getDefaultProps() {},
+  getInitialState() {},
+  componentWillMount() {},
+  componentDidMount() {},
+  componentWillReceiveProps() {},
+  shouldComponentUpdate() {},
+  componentWillUpdate() {},
+  componentDidUpdate() {},
+  componentWillUnmount() {},
+  _getFoo() {},
+  _fooHelper() {},
+  _onClick() {},
+  render() {}
+});
+
+
  - displayName
  - Conditional HTML
  - JSX as a Variable or Return Value

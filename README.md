@@ -33,7 +33,8 @@ class HelloMessage extends React.Component {
 ReactDOM.render(<HelloMessage name="Sebastian" />, mountNode);
 ```
 
-
+## Mixins
+ES6 classes do not support mixins and neither do we. [Dan Abramov on mixins in React](https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750#.ecm9uuewt)
 
 ## TBD
  - Installation

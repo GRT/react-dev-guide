@@ -18,8 +18,7 @@ There are 2 types of contributors on our projects.
 ### Team Members
 If you're assigned to a project team for a given product, you should always create a feature branch off of master and do your work there.  Once you're done and/or ready for a second set of eyes, please push your feature branch and [create a pull request](https://help.github.com/articles/creating-a-pull-request/).  This pull request will be were we collaborate in code review and once at least one other team memeber has given and LGTM :+1:.  You can merge to master and delete your feature branch.
 ### Outside Contributors
-
-
+Non team members should also be encouraged to contribute. In this case devs should [fork the target repo](https://help.github.com/articles/fork-a-repo/) implement their changes in that fork and [create a pull request](https://help.github.com/articles/using-pull-requests/) against the source project. Team members will review, discuss, collaborate on the PR before merging.
 
 ## Code Reviews
 

@@ -59,7 +59,52 @@ ES6 classes do not support mixins and neither do we. [Dan Abramov on mixins in R
  - Additional dependencies
  - jQuery and Underscore
  - Five Lines
- - File Naming
+
+## [Project Structure] (http://reactjsnews.com/structuring-react-projects/) | *Work in Progress*
+###### File Naming
+Starting the component names (i.e., App.jsx) with an uppercase letter makes them easy to discover. 
+
+###### Component Index.js
+Use an index.js file to export the component this provides us with a neat entry points to the files so they are easy to consume from elsewhere.Each component is a self-contained entity now. We can use for example CSS Modules to underline this point. Extracting these components from the project would be easy now given how self-contained they are.
+
+```
+//src/ClusterThumbView/index.js
+import ClusterThumbView from './ClusterThumbView.jsx';
+export default ClusterThumbView
+```
+
+###### Tests
+The tests related to each component are trivial to find now. We still might want to have a /tests directory at the project root in order to deal with higher level tests.
+
+```
+src $ tree
+.
+├── components
+│   ├── Note
+│   │   ├── Note.jsx
+│   │   ├── index.js
+│   │   ├── note.css
+│   │   └── note_test.jsx
+│   ├── Routes
+│   │   ├── Routes.jsx
+│   │   ├── index.js
+│   │   └── routes_test.jsx
+│   └── index.js
+├── index.jsx
+├── main.css
+└── views
+    ├── Home
+    │   ├── Home.jsx
+    │   ├── home.css
+    │   ├── home_test.jsx
+    │   └── index.js
+    ├── Register
+    │   ├── Register.jsx
+    │   ├── index.js
+    │   ├── register.css
+    │   └── register_test.jsx
+    └── index.js
+```
 
 ## Method Organizations
 We lay out the methods of a component in life-cycle order:

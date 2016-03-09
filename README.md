@@ -20,6 +20,9 @@ If you're assigned to a project team for a given product, you should always crea
 ### Outside Contributors
 Non team members should also be encouraged to contribute. In this case devs should [fork the target repo](https://help.github.com/articles/fork-a-repo/) implement their changes in that fork and [create a pull request](https://help.github.com/articles/using-pull-requests/) against the source project. Team members will review, discuss, collaborate on the PR before merging.
 
+## Pull Requests
+Pull requests should be as detailed as possible in describing the changes and reasoning behind them. It's advisable to create PRs early to allow feedback and participation from others in the team. If you'd like to create a PR that's not yet ready to be mearges, you can use the text **[WIP]** in the title. To indicate that you'd like some feedback include **[Review]** in the title.
+
 ## Code Reviews
 
 ## React Class Syntax

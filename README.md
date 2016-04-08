@@ -40,6 +40,13 @@ ReactDOM.render(<HelloMessage name="Sebastian" />, mountNode);
 ## Mixins
 ES6 classes do not support mixins and neither do we. [Dan Abramov on mixins in React](https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750#.ecm9uuewt)
 
+## Props
+Proptypes should be defined in you component
+Example:
+
+```
+ ClassName.propTypes = { mode: React.PropTypes.string };
+```
 ## TBD
  - Installation
  - Running the code
@@ -48,7 +55,6 @@ ES6 classes do not support mixins and neither do we. [Dan Abramov on mixins in R
  - Extend Versus Create
  - Nested Components
  - Size
- - Props and State
  - Managing The State
  - Events
  - Design Patterns
